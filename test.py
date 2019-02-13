@@ -5,5 +5,5 @@ def test_message(capsys):
     
     import hello
     out, err = capsys.readouterr()
-    assert out == "Hello, world!\n", "Your code should have printed out 'Hello, World!, but I didn't see any output..."
+    assert out == "Hello, world!\n", "Your code should have printed out 'Hello, World!, but it doesn't look like it did..."
 
